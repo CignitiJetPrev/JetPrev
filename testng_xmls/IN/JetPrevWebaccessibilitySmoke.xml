@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+		
+	     <test verbose="2" name="Default test1">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_WebaccessibilityFooterChrome" />
+		</classes>
+	</test> 
+	
+		  <test verbose="2" name="Default test2">
+		<parameter name="browserChromeOption" value="ie"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_WebaccessibilityFooterIE" />
+		</classes>
+	</test> 
+	
+	
+		  <test verbose="2" name="Default test3">
+		<parameter name="browserChromeOption" value="firefox"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_WebaccessibilityFooterFF" />
+		</classes>
+	</test> 
+
+		   <test verbose="2" name="Default test4">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_WebaccessibilityHeaderChrome" />
+		</classes>
+	</test> 
+	
+		  <test verbose="2" name="Default test5">
+		<parameter name="browserChromeOption" value="ie"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_WebaccessibilityHeaderIE" />
+		</classes>
+	</test> 
+	
+	
+		  <test verbose="2" name="Default test6">
+		<parameter name="browserChromeOption" value="firefox"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_WebaccessibilityHeaderFirefox" />
+		</classes>
+	</test> 
+
+</suite> 

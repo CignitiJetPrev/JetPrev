@@ -1,0 +1,1289 @@
+# Created on 2018-01-12T12:01:06.993
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created on 2018-01-12T12:01:10.474
+Unexpected IOException with stream: 12:01:10.473 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+
+
+# Created on 2018-01-12T12:01:10.474
+Unexpected IOException with stream: 12:01:10.474 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+
+
+# Created on 2018-01-12T12:01:10.475
+Unexpected IOException with stream: 12:01:10.474 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:10.475
+Unexpected IOException with stream: 12:01:10.475 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 93][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-01-12T12:01:10.476
+Unexpected IOException with stream: 12:01:10.475 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:46649
+
+
+# Created on 2018-01-12T12:01:10.476
+Unexpected IOException with stream: 12:01:10.476 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:10.477
+Unexpected IOException with stream: 12:01:10.477 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:55002<->127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:10.477
+Unexpected IOException with stream: 12:01:10.477 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-93: set socket timeout to 10800000
+
+
+# Created on 2018-01-12T12:01:10.478
+Unexpected IOException with stream: 12:01:10.477 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:10.478
+Unexpected IOException with stream: 12:01:10.478 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:10.479
+Unexpected IOException with stream: 12:01:10.478 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:10.480
+Unexpected IOException with stream: 12:01:10.479 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-93 >> POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:10.480
+Unexpected IOException with stream: 12:01:10.480 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-93 >> Content-Type: application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:10.481
+Unexpected IOException with stream: 12:01:10.481 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-93 >> Content-Length: 69
+
+
+# Created on 2018-01-12T12:01:10.481
+Unexpected IOException with stream: 12:01:10.481 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-93 >> Host: localhost:46649
+
+
+# Created on 2018-01-12T12:01:10.482
+Unexpected IOException with stream: 12:01:10.482 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-93 >> Connection: Keep-Alive
+
+
+# Created on 2018-01-12T12:01:10.483
+Unexpected IOException with stream: 12:01:10.482 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-93 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)
+
+
+# Created on 2018-01-12T12:01:10.483
+Unexpected IOException with stream: 12:01:10.483 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-93 >> Accept-Encoding: gzip,deflate
+
+
+# Created on 2018-01-12T12:01:10.484
+Unexpected IOException with stream: 12:01:10.483 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 >> "POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.484
+Unexpected IOException with stream: 12:01:10.484 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.485
+Unexpected IOException with stream: 12:01:10.484 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 >> "Content-Length: 69[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.485
+Unexpected IOException with stream: 12:01:10.485 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 >> "Host: localhost:46649[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.485
+Unexpected IOException with stream: 12:01:10.485 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.486
+Unexpected IOException with stream: 12:01:10.486 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.486
+Unexpected IOException with stream: 12:01:10.486 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.487
+Unexpected IOException with stream: 12:01:10.486 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 >> "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.487
+Unexpected IOException with stream: 12:01:10.487 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 >> "{"using":"xpath","value":".//a[@href='/profile'][@class='nav-link']"}"
+
+
+# Created on 2018-01-12T12:01:10.504
+Unexpected IOException with stream: 12:01:10.503 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.504
+Unexpected IOException with stream: 12:01:10.504 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 << "Content-Length:102[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.505
+Unexpected IOException with stream: 12:01:10.504 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.505
+Unexpected IOException with stream: 12:01:10.505 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 << "Connection:close[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.506
+Unexpected IOException with stream: 12:01:10.505 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 << "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.506
+Unexpected IOException with stream: 12:01:10.506 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-93 << "{"sessionId":"d6a240b363665cb27fb8596050b7296d","status":0,"value":{"ELEMENT":"0.4192796730700652-1"}}"
+
+
+# Created on 2018-01-12T12:01:10.506
+Unexpected IOException with stream: 12:01:10.506 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-93 << HTTP/1.1 200 OK
+
+
+# Created on 2018-01-12T12:01:10.507
+Unexpected IOException with stream: 12:01:10.507 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-93 << Content-Length:102
+
+
+# Created on 2018-01-12T12:01:10.507
+Unexpected IOException with stream: 12:01:10.507 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-93 << Content-Type:application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:10.508
+Unexpected IOException with stream: 12:01:10.507 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-93 << Connection:close
+
+
+# Created on 2018-01-12T12:01:10.508
+Unexpected IOException with stream: 12:01:10.508 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-93: Close connection
+
+
+# Created on 2018-01-12T12:01:10.509
+Unexpected IOException with stream: 12:01:10.508 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Connection discarded
+
+
+# Created on 2018-01-12T12:01:10.509
+Unexpected IOException with stream: 12:01:10.509 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 93][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:10.510
+Unexpected IOException with stream: 12:01:10.510 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+
+
+# Created on 2018-01-12T12:01:10.511
+Unexpected IOException with stream: 12:01:10.510 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+
+
+# Created on 2018-01-12T12:01:10.511
+Unexpected IOException with stream: 12:01:10.511 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:10.511
+Unexpected IOException with stream: 12:01:10.511 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 94][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-01-12T12:01:10.512
+Unexpected IOException with stream: 12:01:10.512 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:46649
+
+
+# Created on 2018-01-12T12:01:10.513
+Unexpected IOException with stream: 12:01:10.512 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:10.513
+Unexpected IOException with stream: 12:01:10.513 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:55003<->127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:10.514
+Unexpected IOException with stream: 12:01:10.514 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-94: set socket timeout to 10800000
+
+
+# Created on 2018-01-12T12:01:10.514
+Unexpected IOException with stream: 12:01:10.514 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /session/d6a240b363665cb27fb8596050b7296d/execute HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:10.515
+Unexpected IOException with stream: 12:01:10.514 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:10.515
+Unexpected IOException with stream: 12:01:10.515 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:10.515
+Unexpected IOException with stream: 12:01:10.515 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-94 >> POST /session/d6a240b363665cb27fb8596050b7296d/execute HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:10.516
+Unexpected IOException with stream: 12:01:10.516 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-94 >> Content-Type: application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:10.516
+Unexpected IOException with stream: 12:01:10.516 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-94 >> Content-Length: 161
+
+
+# Created on 2018-01-12T12:01:10.517
+Unexpected IOException with stream: 12:01:10.516 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-94 >> Host: localhost:46649
+
+
+# Created on 2018-01-12T12:01:10.517
+Unexpected IOException with stream: 12:01:10.517 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-94 >> Connection: Keep-Alive
+
+
+# Created on 2018-01-12T12:01:10.517
+Unexpected IOException with stream: 12:01:10.517 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-94 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)
+
+
+# Created on 2018-01-12T12:01:10.518
+Unexpected IOException with stream: 12:01:10.517 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-94 >> Accept-Encoding: gzip,deflate
+
+
+# Created on 2018-01-12T12:01:10.518
+Unexpected IOException with stream: 12:01:10.518 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 >> "POST /session/d6a240b363665cb27fb8596050b7296d/execute HTTP/1.1[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.519
+Unexpected IOException with stream: 12:01:10.518 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.519
+Unexpected IOException with stream: 12:01:10.519 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 >> "Content-Length: 161[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.519
+Unexpected IOException with stream: 12:01:10.519 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 >> "Host: localhost:46649[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.520
+Unexpected IOException with stream: 12:01:10.519 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.520
+Unexpected IOException with stream: 12:01:10.520 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.521
+Unexpected IOException with stream: 12:01:10.520 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.521
+Unexpected IOException with stream: 12:01:10.521 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 >> "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.521
+Unexpected IOException with stream: 12:01:10.521 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 >> "{"script":"arguments[0].style.border='4px solid green'","args":[{"ELEMENT":"0.4192796730700652-1","element-6066-11e4-a52e-4f735466cecf":"0.4192796730700652-1"}]}"
+
+
+# Created on 2018-01-12T12:01:10.528
+Unexpected IOException with stream: 12:01:10.528 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.529
+Unexpected IOException with stream: 12:01:10.528 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 << "Content-Length:72[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.529
+Unexpected IOException with stream: 12:01:10.529 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.529
+Unexpected IOException with stream: 12:01:10.529 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 << "Connection:close[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.530
+Unexpected IOException with stream: 12:01:10.530 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 << "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.530
+Unexpected IOException with stream: 12:01:10.530 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-94 << "{"sessionId":"d6a240b363665cb27fb8596050b7296d","status":0,"value":null}"
+
+
+# Created on 2018-01-12T12:01:10.531
+Unexpected IOException with stream: 12:01:10.531 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-94 << HTTP/1.1 200 OK
+
+
+# Created on 2018-01-12T12:01:10.531
+Unexpected IOException with stream: 12:01:10.531 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-94 << Content-Length:72
+
+
+# Created on 2018-01-12T12:01:10.532
+Unexpected IOException with stream: 12:01:10.531 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-94 << Content-Type:application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:10.532
+Unexpected IOException with stream: 12:01:10.532 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-94 << Connection:close
+
+
+# Created on 2018-01-12T12:01:10.533
+Unexpected IOException with stream: 12:01:10.532 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-94: Close connection
+
+
+# Created on 2018-01-12T12:01:10.533
+Unexpected IOException with stream: 12:01:10.533 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Connection discarded
+
+
+# Created on 2018-01-12T12:01:10.534
+Unexpected IOException with stream: 12:01:10.534 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 94][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:10.535
+Unexpected IOException with stream: 12:01:10.535 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+
+
+# Created on 2018-01-12T12:01:10.536
+Unexpected IOException with stream: 12:01:10.536 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+
+
+# Created on 2018-01-12T12:01:10.537
+Unexpected IOException with stream: 12:01:10.536 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:10.537
+Unexpected IOException with stream: 12:01:10.537 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 95][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-01-12T12:01:10.538
+Unexpected IOException with stream: 12:01:10.537 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:46649
+
+
+# Created on 2018-01-12T12:01:10.539
+Unexpected IOException with stream: 12:01:10.538 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:10.540
+Unexpected IOException with stream: 12:01:10.539 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:55004<->127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:10.540
+Unexpected IOException with stream: 12:01:10.540 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-95: set socket timeout to 10800000
+
+
+# Created on 2018-01-12T12:01:10.541
+Unexpected IOException with stream: 12:01:10.540 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:10.541
+Unexpected IOException with stream: 12:01:10.541 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:10.542
+Unexpected IOException with stream: 12:01:10.541 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:10.542
+Unexpected IOException with stream: 12:01:10.542 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-95 >> POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:10.543
+Unexpected IOException with stream: 12:01:10.542 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-95 >> Content-Type: application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:10.543
+Unexpected IOException with stream: 12:01:10.543 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-95 >> Content-Length: 69
+
+
+# Created on 2018-01-12T12:01:10.544
+Unexpected IOException with stream: 12:01:10.543 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-95 >> Host: localhost:46649
+
+
+# Created on 2018-01-12T12:01:10.544
+Unexpected IOException with stream: 12:01:10.544 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-95 >> Connection: Keep-Alive
+
+
+# Created on 2018-01-12T12:01:10.545
+Unexpected IOException with stream: 12:01:10.544 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-95 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)
+
+
+# Created on 2018-01-12T12:01:10.545
+Unexpected IOException with stream: 12:01:10.545 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-95 >> Accept-Encoding: gzip,deflate
+
+
+# Created on 2018-01-12T12:01:10.545
+Unexpected IOException with stream: 12:01:10.545 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 >> "POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.546
+Unexpected IOException with stream: 12:01:10.546 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.546
+Unexpected IOException with stream: 12:01:10.546 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 >> "Content-Length: 69[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.547
+Unexpected IOException with stream: 12:01:10.546 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 >> "Host: localhost:46649[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.547
+Unexpected IOException with stream: 12:01:10.547 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.548
+Unexpected IOException with stream: 12:01:10.547 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.548
+Unexpected IOException with stream: 12:01:10.548 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.549
+Unexpected IOException with stream: 12:01:10.548 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 >> "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.549
+Unexpected IOException with stream: 12:01:10.549 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 >> "{"using":"xpath","value":".//a[@href='/profile'][@class='nav-link']"}"
+
+
+# Created on 2018-01-12T12:01:10.580
+Unexpected IOException with stream: 12:01:10.579 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.580
+Unexpected IOException with stream: 12:01:10.580 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 << "Content-Length:102[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.581
+Unexpected IOException with stream: 12:01:10.581 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.581
+Unexpected IOException with stream: 12:01:10.581 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 << "Connection:close[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.582
+Unexpected IOException with stream: 12:01:10.581 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 << "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.582
+Unexpected IOException with stream: 12:01:10.582 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-95 << "{"sessionId":"d6a240b363665cb27fb8596050b7296d","status":0,"value":{"ELEMENT":"0.4192796730700652-1"}}"
+
+
+# Created on 2018-01-12T12:01:10.582
+Unexpected IOException with stream: 12:01:10.582 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-95 << HTTP/1.1 200 OK
+
+
+# Created on 2018-01-12T12:01:10.583
+Unexpected IOException with stream: 12:01:10.583 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-95 << Content-Length:102
+
+
+# Created on 2018-01-12T12:01:10.583
+Unexpected IOException with stream: 12:01:10.583 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-95 << Content-Type:application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:10.584
+Unexpected IOException with stream: 12:01:10.583 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-95 << Connection:close
+
+
+# Created on 2018-01-12T12:01:10.585
+Unexpected IOException with stream: 12:01:10.584 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-95: Close connection
+
+
+# Created on 2018-01-12T12:01:10.585
+Unexpected IOException with stream: 12:01:10.585 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Connection discarded
+
+
+# Created on 2018-01-12T12:01:10.586
+Unexpected IOException with stream: 12:01:10.585 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 95][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:10.587
+Unexpected IOException with stream: 12:01:10.587 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+
+
+# Created on 2018-01-12T12:01:10.587
+Unexpected IOException with stream: 12:01:10.587 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+
+
+# Created on 2018-01-12T12:01:10.588
+Unexpected IOException with stream: 12:01:10.588 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:10.588
+Unexpected IOException with stream: 12:01:10.588 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 96][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-01-12T12:01:10.589
+Unexpected IOException with stream: 12:01:10.589 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:46649
+
+
+# Created on 2018-01-12T12:01:10.589
+Unexpected IOException with stream: 12:01:10.589 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:10.590
+Unexpected IOException with stream: 12:01:10.590 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:55005<->127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:10.591
+Unexpected IOException with stream: 12:01:10.590 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-96: set socket timeout to 10800000
+
+
+# Created on 2018-01-12T12:01:10.592
+Unexpected IOException with stream: 12:01:10.591 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /session/d6a240b363665cb27fb8596050b7296d/moveto HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:10.592
+Unexpected IOException with stream: 12:01:10.592 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:10.592
+Unexpected IOException with stream: 12:01:10.592 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:10.593
+Unexpected IOException with stream: 12:01:10.593 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-96 >> POST /session/d6a240b363665cb27fb8596050b7296d/moveto HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:10.593
+Unexpected IOException with stream: 12:01:10.593 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-96 >> Content-Type: application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:10.594
+Unexpected IOException with stream: 12:01:10.593 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-96 >> Content-Length: 34
+
+
+# Created on 2018-01-12T12:01:10.594
+Unexpected IOException with stream: 12:01:10.594 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-96 >> Host: localhost:46649
+
+
+# Created on 2018-01-12T12:01:10.594
+Unexpected IOException with stream: 12:01:10.594 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-96 >> Connection: Keep-Alive
+
+
+# Created on 2018-01-12T12:01:10.595
+Unexpected IOException with stream: 12:01:10.595 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-96 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)
+
+
+# Created on 2018-01-12T12:01:10.595
+Unexpected IOException with stream: 12:01:10.595 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-96 >> Accept-Encoding: gzip,deflate
+
+
+# Created on 2018-01-12T12:01:10.596
+Unexpected IOException with stream: 12:01:10.595 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 >> "POST /session/d6a240b363665cb27fb8596050b7296d/moveto HTTP/1.1[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.596
+Unexpected IOException with stream: 12:01:10.596 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.597
+Unexpected IOException with stream: 12:01:10.596 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 >> "Content-Length: 34[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.597
+Unexpected IOException with stream: 12:01:10.597 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 >> "Host: localhost:46649[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.597
+Unexpected IOException with stream: 12:01:10.597 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.598
+Unexpected IOException with stream: 12:01:10.598 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.598
+Unexpected IOException with stream: 12:01:10.598 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.599
+Unexpected IOException with stream: 12:01:10.598 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 >> "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.599
+Unexpected IOException with stream: 12:01:10.599 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 >> "{"element":"0.4192796730700652-1"}"
+
+
+# Created on 2018-01-12T12:01:10.666
+Unexpected IOException with stream: 12:01:10.666 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.667
+Unexpected IOException with stream: 12:01:10.667 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 << "Content-Length:72[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.668
+Unexpected IOException with stream: 12:01:10.667 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.668
+Unexpected IOException with stream: 12:01:10.668 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 << "Connection:close[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.669
+Unexpected IOException with stream: 12:01:10.669 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 << "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:10.670
+Unexpected IOException with stream: 12:01:10.669 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-96 << "{"sessionId":"d6a240b363665cb27fb8596050b7296d","status":0,"value":null}"
+
+
+# Created on 2018-01-12T12:01:10.671
+Unexpected IOException with stream: 12:01:10.670 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-96 << HTTP/1.1 200 OK
+
+
+# Created on 2018-01-12T12:01:10.671
+Unexpected IOException with stream: 12:01:10.671 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-96 << Content-Length:72
+
+
+# Created on 2018-01-12T12:01:10.672
+Unexpected IOException with stream: 12:01:10.672 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-96 << Content-Type:application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:10.673
+Unexpected IOException with stream: 12:01:10.673 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-96 << Connection:close
+
+
+# Created on 2018-01-12T12:01:10.674
+Unexpected IOException with stream: 12:01:10.674 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-96: Close connection
+
+
+# Created on 2018-01-12T12:01:10.675
+Unexpected IOException with stream: 12:01:10.674 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Connection discarded
+
+
+# Created on 2018-01-12T12:01:10.675
+Unexpected IOException with stream: 12:01:10.675 [Forwarding mouseMoveTo on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 96][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.678
+Unexpected IOException with stream: 12:01:12.677 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+
+
+# Created on 2018-01-12T12:01:12.680
+Unexpected IOException with stream: 12:01:12.679 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+
+
+# Created on 2018-01-12T12:01:12.682
+Unexpected IOException with stream: 12:01:12.681 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.683
+Unexpected IOException with stream: 12:01:12.682 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 97][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.685
+Unexpected IOException with stream: 12:01:12.684 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:46649
+
+
+# Created on 2018-01-12T12:01:12.687
+Unexpected IOException with stream: 12:01:12.686 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:12.690
+Unexpected IOException with stream: 12:01:12.689 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:55006<->127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:12.692
+Unexpected IOException with stream: 12:01:12.691 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-97: set socket timeout to 10800000
+
+
+# Created on 2018-01-12T12:01:12.692
+Unexpected IOException with stream: 12:01:12.692 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:12.693
+Unexpected IOException with stream: 12:01:12.692 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:12.693
+Unexpected IOException with stream: 12:01:12.693 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:12.694
+Unexpected IOException with stream: 12:01:12.693 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-97 >> POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:12.694
+Unexpected IOException with stream: 12:01:12.694 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-97 >> Content-Type: application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:12.695
+Unexpected IOException with stream: 12:01:12.694 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-97 >> Content-Length: 52
+
+
+# Created on 2018-01-12T12:01:12.695
+Unexpected IOException with stream: 12:01:12.695 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-97 >> Host: localhost:46649
+
+
+# Created on 2018-01-12T12:01:12.696
+Unexpected IOException with stream: 12:01:12.695 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-97 >> Connection: Keep-Alive
+
+
+# Created on 2018-01-12T12:01:12.696
+Unexpected IOException with stream: 12:01:12.696 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-97 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)
+
+
+# Created on 2018-01-12T12:01:12.697
+Unexpected IOException with stream: 12:01:12.696 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-97 >> Accept-Encoding: gzip,deflate
+
+
+# Created on 2018-01-12T12:01:12.697
+Unexpected IOException with stream: 12:01:12.697 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 >> "POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.697
+Unexpected IOException with stream: 12:01:12.697 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.698
+Unexpected IOException with stream: 12:01:12.697 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 >> "Content-Length: 52[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.698
+Unexpected IOException with stream: 12:01:12.698 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 >> "Host: localhost:46649[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.698
+Unexpected IOException with stream: 12:01:12.698 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.699
+Unexpected IOException with stream: 12:01:12.699 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.699
+Unexpected IOException with stream: 12:01:12.699 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.700
+Unexpected IOException with stream: 12:01:12.699 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 >> "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.700
+Unexpected IOException with stream: 12:01:12.700 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 >> "{"using":"xpath","value":".//*[text()='Favorites']"}"
+
+
+# Created on 2018-01-12T12:01:12.716
+Unexpected IOException with stream: 12:01:12.716 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.716
+Unexpected IOException with stream: 12:01:12.716 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 << "Content-Length:102[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.717
+Unexpected IOException with stream: 12:01:12.717 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.717
+Unexpected IOException with stream: 12:01:12.717 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 << "Connection:close[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.718
+Unexpected IOException with stream: 12:01:12.717 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 << "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.718
+Unexpected IOException with stream: 12:01:12.718 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-97 << "{"sessionId":"d6a240b363665cb27fb8596050b7296d","status":0,"value":{"ELEMENT":"0.4192796730700652-2"}}"
+
+
+# Created on 2018-01-12T12:01:12.718
+Unexpected IOException with stream: 12:01:12.718 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-97 << HTTP/1.1 200 OK
+
+
+# Created on 2018-01-12T12:01:12.719
+Unexpected IOException with stream: 12:01:12.718 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-97 << Content-Length:102
+
+
+# Created on 2018-01-12T12:01:12.719
+Unexpected IOException with stream: 12:01:12.719 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-97 << Content-Type:application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:12.719
+Unexpected IOException with stream: 12:01:12.719 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-97 << Connection:close
+
+
+# Created on 2018-01-12T12:01:12.720
+Unexpected IOException with stream: 12:01:12.720 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-97: Close connection
+
+
+# Created on 2018-01-12T12:01:12.721
+Unexpected IOException with stream: 12:01:12.721 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Connection discarded
+
+
+# Created on 2018-01-12T12:01:12.722
+Unexpected IOException with stream: 12:01:12.721 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 97][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.723
+Unexpected IOException with stream: 12:01:12.722 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+
+
+# Created on 2018-01-12T12:01:12.723
+Unexpected IOException with stream: 12:01:12.723 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+
+
+# Created on 2018-01-12T12:01:12.724
+Unexpected IOException with stream: 12:01:12.723 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.724
+Unexpected IOException with stream: 12:01:12.724 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 98][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.724
+Unexpected IOException with stream: 12:01:12.724 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:46649
+
+
+# Created on 2018-01-12T12:01:12.725
+Unexpected IOException with stream: 12:01:12.725 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:12.726
+Unexpected IOException with stream: 12:01:12.725 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:55007<->127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:12.726
+Unexpected IOException with stream: 12:01:12.726 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-98: set socket timeout to 10800000
+
+
+# Created on 2018-01-12T12:01:12.726
+Unexpected IOException with stream: 12:01:12.726 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /session/d6a240b363665cb27fb8596050b7296d/execute HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:12.727
+Unexpected IOException with stream: 12:01:12.726 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:12.727
+Unexpected IOException with stream: 12:01:12.727 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:12.728
+Unexpected IOException with stream: 12:01:12.727 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-98 >> POST /session/d6a240b363665cb27fb8596050b7296d/execute HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:12.728
+Unexpected IOException with stream: 12:01:12.728 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-98 >> Content-Type: application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:12.729
+Unexpected IOException with stream: 12:01:12.728 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-98 >> Content-Length: 161
+
+
+# Created on 2018-01-12T12:01:12.729
+Unexpected IOException with stream: 12:01:12.729 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-98 >> Host: localhost:46649
+
+
+# Created on 2018-01-12T12:01:12.729
+Unexpected IOException with stream: 12:01:12.729 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-98 >> Connection: Keep-Alive
+
+
+# Created on 2018-01-12T12:01:12.730
+Unexpected IOException with stream: 12:01:12.729 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-98 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)
+
+
+# Created on 2018-01-12T12:01:12.730
+Unexpected IOException with stream: 12:01:12.730 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-98 >> Accept-Encoding: gzip,deflate
+
+
+# Created on 2018-01-12T12:01:12.730
+Unexpected IOException with stream: 12:01:12.730 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 >> "POST /session/d6a240b363665cb27fb8596050b7296d/execute HTTP/1.1[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.731
+Unexpected IOException with stream: 12:01:12.731 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.731
+Unexpected IOException with stream: 12:01:12.731 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 >> "Content-Length: 161[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.731
+Unexpected IOException with stream: 12:01:12.731 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 >> "Host: localhost:46649[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.732
+Unexpected IOException with stream: 12:01:12.732 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.732
+Unexpected IOException with stream: 12:01:12.732 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.733
+Unexpected IOException with stream: 12:01:12.732 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.733
+Unexpected IOException with stream: 12:01:12.733 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 >> "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.733
+Unexpected IOException with stream: 12:01:12.733 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 >> "{"script":"arguments[0].style.border='4px solid green'","args":[{"ELEMENT":"0.4192796730700652-2","element-6066-11e4-a52e-4f735466cecf":"0.4192796730700652-2"}]}"
+
+
+# Created on 2018-01-12T12:01:12.745
+Unexpected IOException with stream: 12:01:12.744 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.745
+Unexpected IOException with stream: 12:01:12.745 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 << "Content-Length:72[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.746
+Unexpected IOException with stream: 12:01:12.745 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.746
+Unexpected IOException with stream: 12:01:12.746 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 << "Connection:close[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.746
+Unexpected IOException with stream: 12:01:12.746 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 << "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.747
+Unexpected IOException with stream: 12:01:12.747 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-98 << "{"sessionId":"d6a240b363665cb27fb8596050b7296d","status":0,"value":null}"
+
+
+# Created on 2018-01-12T12:01:12.747
+Unexpected IOException with stream: 12:01:12.747 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-98 << HTTP/1.1 200 OK
+
+
+# Created on 2018-01-12T12:01:12.748
+Unexpected IOException with stream: 12:01:12.748 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-98 << Content-Length:72
+
+
+# Created on 2018-01-12T12:01:12.748
+Unexpected IOException with stream: 12:01:12.748 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-98 << Content-Type:application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:12.749
+Unexpected IOException with stream: 12:01:12.749 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-98 << Connection:close
+
+
+# Created on 2018-01-12T12:01:12.750
+Unexpected IOException with stream: 12:01:12.749 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-98: Close connection
+
+
+# Created on 2018-01-12T12:01:12.750
+Unexpected IOException with stream: 12:01:12.750 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Connection discarded
+
+
+# Created on 2018-01-12T12:01:12.751
+Unexpected IOException with stream: 12:01:12.750 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 98][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.753
+Unexpected IOException with stream: 12:01:12.752 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+
+
+# Created on 2018-01-12T12:01:12.754
+Unexpected IOException with stream: 12:01:12.753 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+
+
+# Created on 2018-01-12T12:01:12.755
+Unexpected IOException with stream: 12:01:12.754 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.756
+Unexpected IOException with stream: 12:01:12.756 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 99][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.757
+Unexpected IOException with stream: 12:01:12.756 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:46649
+
+
+# Created on 2018-01-12T12:01:12.757
+Unexpected IOException with stream: 12:01:12.757 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:12.758
+Unexpected IOException with stream: 12:01:12.758 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:55008<->127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:12.759
+Unexpected IOException with stream: 12:01:12.759 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-99: set socket timeout to 10800000
+
+
+# Created on 2018-01-12T12:01:12.760
+Unexpected IOException with stream: 12:01:12.759 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:12.760
+Unexpected IOException with stream: 12:01:12.760 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:12.761
+Unexpected IOException with stream: 12:01:12.761 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:12.761
+Unexpected IOException with stream: 12:01:12.761 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-99 >> POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:12.762
+Unexpected IOException with stream: 12:01:12.762 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-99 >> Content-Type: application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:12.762
+Unexpected IOException with stream: 12:01:12.762 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-99 >> Content-Length: 52
+
+
+# Created on 2018-01-12T12:01:12.763
+Unexpected IOException with stream: 12:01:12.762 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-99 >> Host: localhost:46649
+
+
+# Created on 2018-01-12T12:01:12.764
+Unexpected IOException with stream: 12:01:12.763 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-99 >> Connection: Keep-Alive
+
+
+# Created on 2018-01-12T12:01:12.764
+Unexpected IOException with stream: 12:01:12.764 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-99 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)
+
+
+# Created on 2018-01-12T12:01:12.764
+Unexpected IOException with stream: 12:01:12.764 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-99 >> Accept-Encoding: gzip,deflate
+
+
+# Created on 2018-01-12T12:01:12.765
+Unexpected IOException with stream: 12:01:12.764 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 >> "POST /session/d6a240b363665cb27fb8596050b7296d/element HTTP/1.1[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.765
+Unexpected IOException with stream: 12:01:12.765 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.766
+Unexpected IOException with stream: 12:01:12.766 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 >> "Content-Length: 52[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.767
+Unexpected IOException with stream: 12:01:12.766 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 >> "Host: localhost:46649[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.767
+Unexpected IOException with stream: 12:01:12.767 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.768
+Unexpected IOException with stream: 12:01:12.767 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.768
+Unexpected IOException with stream: 12:01:12.768 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.769
+Unexpected IOException with stream: 12:01:12.769 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 >> "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.769
+Unexpected IOException with stream: 12:01:12.769 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 >> "{"using":"xpath","value":".//*[text()='Favorites']"}"
+
+
+# Created on 2018-01-12T12:01:12.783
+Unexpected IOException with stream: 12:01:12.783 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.784
+Unexpected IOException with stream: 12:01:12.784 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 << "Content-Length:102[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.784
+Unexpected IOException with stream: 12:01:12.784 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.785
+Unexpected IOException with stream: 12:01:12.784 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 << "Connection:close[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.785
+Unexpected IOException with stream: 12:01:12.785 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 << "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.785
+Unexpected IOException with stream: 12:01:12.785 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-99 << "{"sessionId":"d6a240b363665cb27fb8596050b7296d","status":0,"value":{"ELEMENT":"0.4192796730700652-2"}}"
+
+
+# Created on 2018-01-12T12:01:12.786
+Unexpected IOException with stream: 12:01:12.786 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-99 << HTTP/1.1 200 OK
+
+
+# Created on 2018-01-12T12:01:12.786
+Unexpected IOException with stream: 12:01:12.786 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-99 << Content-Length:102
+
+
+# Created on 2018-01-12T12:01:12.787
+Unexpected IOException with stream: 12:01:12.786 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-99 << Content-Type:application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:12.787
+Unexpected IOException with stream: 12:01:12.787 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-99 << Connection:close
+
+
+# Created on 2018-01-12T12:01:12.788
+Unexpected IOException with stream: 12:01:12.787 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-99: Close connection
+
+
+# Created on 2018-01-12T12:01:12.789
+Unexpected IOException with stream: 12:01:12.788 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Connection discarded
+
+
+# Created on 2018-01-12T12:01:12.789
+Unexpected IOException with stream: 12:01:12.789 [Forwarding findElement on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 99][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.791
+Unexpected IOException with stream: 12:01:12.790 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+
+
+# Created on 2018-01-12T12:01:12.791
+Unexpected IOException with stream: 12:01:12.791 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+
+
+# Created on 2018-01-12T12:01:12.792
+Unexpected IOException with stream: 12:01:12.792 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.793
+Unexpected IOException with stream: 12:01:12.792 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 100][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-01-12T12:01:12.793
+Unexpected IOException with stream: 12:01:12.793 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:46649
+
+
+# Created on 2018-01-12T12:01:12.794
+Unexpected IOException with stream: 12:01:12.793 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:12.794
+Unexpected IOException with stream: 12:01:12.794 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:55009<->127.0.0.1:46649
+
+
+# Created on 2018-01-12T12:01:12.795
+Unexpected IOException with stream: 12:01:12.795 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-100: set socket timeout to 10800000
+
+
+# Created on 2018-01-12T12:01:12.795
+Unexpected IOException with stream: 12:01:12.795 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /session/d6a240b363665cb27fb8596050b7296d/execute HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:12.796
+Unexpected IOException with stream: 12:01:12.795 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:12.796
+Unexpected IOException with stream: 12:01:12.796 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+
+
+# Created on 2018-01-12T12:01:12.796
+Unexpected IOException with stream: 12:01:12.796 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-100 >> POST /session/d6a240b363665cb27fb8596050b7296d/execute HTTP/1.1
+
+
+# Created on 2018-01-12T12:01:12.797
+Unexpected IOException with stream: 12:01:12.796 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-100 >> Content-Type: application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:12.797
+Unexpected IOException with stream: 12:01:12.797 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-100 >> Content-Length: 139
+
+
+# Created on 2018-01-12T12:01:12.797
+Unexpected IOException with stream: 12:01:12.797 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-100 >> Host: localhost:46649
+
+
+# Created on 2018-01-12T12:01:12.798
+Unexpected IOException with stream: 12:01:12.797 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-100 >> Connection: Keep-Alive
+
+
+# Created on 2018-01-12T12:01:12.798
+Unexpected IOException with stream: 12:01:12.798 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-100 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)
+
+
+# Created on 2018-01-12T12:01:12.798
+Unexpected IOException with stream: 12:01:12.798 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-100 >> Accept-Encoding: gzip,deflate
+
+
+# Created on 2018-01-12T12:01:12.799
+Unexpected IOException with stream: 12:01:12.798 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 >> "POST /session/d6a240b363665cb27fb8596050b7296d/execute HTTP/1.1[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.799
+Unexpected IOException with stream: 12:01:12.799 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.799
+Unexpected IOException with stream: 12:01:12.799 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 >> "Content-Length: 139[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.800
+Unexpected IOException with stream: 12:01:12.799 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 >> "Host: localhost:46649[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.800
+Unexpected IOException with stream: 12:01:12.800 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.800
+Unexpected IOException with stream: 12:01:12.800 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.801
+Unexpected IOException with stream: 12:01:12.801 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.801
+Unexpected IOException with stream: 12:01:12.801 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 >> "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:12.801
+Unexpected IOException with stream: 12:01:12.801 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 >> "{"script":"arguments[0].click();","args":[{"ELEMENT":"0.4192796730700652-2","element-6066-11e4-a52e-4f735466cecf":"0.4192796730700652-2"}]}"
+
+
+# Created on 2018-01-12T12:01:16.453
+Unexpected IOException with stream: 12:01:16.453 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:16.454
+Unexpected IOException with stream: 12:01:16.454 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 << "Content-Length:72[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:16.454
+Unexpected IOException with stream: 12:01:16.454 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:16.455
+Unexpected IOException with stream: 12:01:16.454 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 << "Connection:close[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:16.455
+Unexpected IOException with stream: 12:01:16.455 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 << "[\r][\n]"
+
+
+# Created on 2018-01-12T12:01:16.455
+Unexpected IOException with stream: 12:01:16.455 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.wire - http-outgoing-100 << "{"sessionId":"d6a240b363665cb27fb8596050b7296d","status":0,"value":null}"
+
+
+# Created on 2018-01-12T12:01:16.456
+Unexpected IOException with stream: 12:01:16.455 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-100 << HTTP/1.1 200 OK
+
+
+# Created on 2018-01-12T12:01:16.456
+Unexpected IOException with stream: 12:01:16.456 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-100 << Content-Length:72
+
+
+# Created on 2018-01-12T12:01:16.456
+Unexpected IOException with stream: 12:01:16.456 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-100 << Content-Type:application/json; charset=utf-8
+
+
+# Created on 2018-01-12T12:01:16.457
+Unexpected IOException with stream: 12:01:16.456 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG org.apache.http.headers - http-outgoing-100 << Connection:close
+
+
+# Created on 2018-01-12T12:01:16.457
+Unexpected IOException with stream: 12:01:16.457 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-100: Close connection
+
+
+# Created on 2018-01-12T12:01:16.458
+Unexpected IOException with stream: 12:01:16.457 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Connection discarded
+
+
+# Created on 2018-01-12T12:01:16.458
+Unexpected IOException with stream: 12:01:16.458 [Forwarding executeScript on session d6a240b363665cb27fb8596050b7296d to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 100][route: {}->http://localhost:46649][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15384036" started-at="2018-08-21T19:16:21Z" finished-at="2018-08-21T23:32:46Z">
+    <groups>
+      <group name="regression">
+        <method signature="JetPrev_Smoke_Component_A_Dataprovider.JetPrev_Component_BreadcrumPresentation(int, int)[pri:0, instance:com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider@396f6598]" name="JetPrev_Component_BreadcrumPresentation" class="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="JetPrev_Smoke_Component_A_Dataprovider.JetPrev_Component_BreadcrumPresentation(int, int)[pri:0, instance:com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider@396f6598]" name="JetPrev_Component_BreadcrumPresentation" class="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test3" duration-ms="15384036" started-at="2018-08-21T19:16:21Z" finished-at="2018-08-21T23:32:46Z">
+      <class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider@396f6598]" name="beforeSuite" is-config="true" duration-ms="63" started-at="2018-08-22T00:46:21Z" finished-at="2018-08-22T00:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b103db7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider@396f6598]" name="beforeTest" is-config="true" duration-ms="31531" started-at="2018-08-22T00:46:21Z" finished-at="2018-08-22T00:46:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b103db7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider@396f6598]" name="beforeMethod" is-config="true" duration-ms="22858" started-at="2018-08-22T00:46:53Z" finished-at="2018-08-22T00:47:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider.JetPrev_Component_BreadcrumPresentation(int,int) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider@396f6598]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2018-08-22T00:47:16Z" finished-at="2018-08-22T00:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="JetPrev_Component_BreadcrumPresentation(int, int)[pri:0, instance:com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider@396f6598]" name="JetPrev_Component_BreadcrumPresentation" duration-ms="15327846" started-at="2018-08-22T00:47:16Z" description="JetPrev" finished-at="2018-08-22T05:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JetPrev_Component_BreadcrumPresentation -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider@396f6598]" name="afterMethod" is-config="true" duration-ms="156" started-at="2018-08-22T05:02:44Z" finished-at="2018-08-22T05:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider.JetPrev_Component_BreadcrumPresentation(int,int) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=JetPrev_Component_BreadcrumPresentation status=SUCCESS method=JetPrev_Smoke_Component_A_Dataprovider.JetPrev_Component_BreadcrumPresentation(int, int)[pri:0, instance:com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider@396f6598] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider@396f6598]" name="afterTest" is-config="true" duration-ms="1617" started-at="2018-08-22T05:02:44Z" finished-at="2018-08-22T05:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider@396f6598]" name="afterSuite" is-config="true" duration-ms="297" started-at="2018-08-22T05:02:46Z" finished-at="2018-08-22T05:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider -->
+    </test> <!-- Default test3 -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+    
+    <test  name="Default test1">
+   
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_Pagination" />
+		</classes>
+	 </test>
+    
+  <!--   <test  name="Default test1">
+   
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_Breadcrum" />
+		</classes>
+	 </test>
+	
+	
+   <test  name="Default test2">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_BreadcrumPresentation" />
+		</classes>
+	</test>  
+		
+	   <test name="Default test3">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_FormLabel_Week2" />
+		</classes>
+ </test> 
+  <test name="Default test4">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="2"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_NewFormLabel" />
+		</classes>
+ </test>
+
+       <test  name="Default test5">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_P" />
+		</classes>
+	</test>
+	   	  
+  
+   <test  name="Default test6">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="26"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_CommonTable" />
+		</classes>
+	</test>   
+	 <test  name="Default test7">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="25"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_Table2" />
+		</classes>
+	</test> 
+	
+  <test name="Default test8">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="25"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_Table4" />
+		</classes>
+</test> 
+ 
+ 	 	 <test  name="Default test9">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_NewformfieldAlignment" />
+		</classes>
+	</test>   
+ 	 <test name="Default test10">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_OldFormfieldAlignment" />
+		</classes>
+</test>  -->
+ 	  
+ 	  
+ <!-- <test name="Default test11">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_SpacingofInstructionText" />
+		</classes>
+</test> -->
+ 	     
+  
+</suite> 

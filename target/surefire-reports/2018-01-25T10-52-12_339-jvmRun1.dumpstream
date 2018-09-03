@@ -1,0 +1,61 @@
+# Created on 2018-01-25T10:53:28.190
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created on 2018-01-25T10:53:53.337
+Unexpected IOException with stream: 10:53:53.336 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created on 2018-01-25T10:53:53.337
+Unexpected IOException with stream: 10:53:53.337 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "Content-Length:72[\r][\n]"
+
+
+# Created on 2018-01-25T10:53:53.338
+Unexpected IOException with stream: 10:53:53.338 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-01-25T10:53:53.338
+Unexpected IOException with stream: 10:53:53.338 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "Connection:close[\r][\n]"
+
+
+# Created on 2018-01-25T10:53:53.339
+Unexpected IOException with stream: 10:53:53.339 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "[\r][\n]"
+
+
+# Created on 2018-01-25T10:53:53.339
+Unexpected IOException with stream: 10:53:53.339 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "{"sessionId":"23bd8cbb970fa18f2e93675e1a2ab17b","status":0,"value":null}"
+
+
+# Created on 2018-01-25T10:53:53.340
+Unexpected IOException with stream: 10:53:53.340 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG org.apache.http.headers - http-outgoing-11 << HTTP/1.1 200 OK
+
+
+# Created on 2018-01-25T10:53:53.340
+Unexpected IOException with stream: 10:53:53.340 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG org.apache.http.headers - http-outgoing-11 << Content-Length:72
+
+
+# Created on 2018-01-25T10:53:53.341
+Unexpected IOException with stream: 10:53:53.340 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG org.apache.http.headers - http-outgoing-11 << Content-Type:application/json; charset=utf-8
+
+
+# Created on 2018-01-25T10:53:53.341
+Unexpected IOException with stream: 10:53:53.341 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG org.apache.http.headers - http-outgoing-11 << Connection:close
+
+
+# Created on 2018-01-25T10:53:53.342
+Unexpected IOException with stream: 10:53:53.342 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-11: Close connection
+
+
+# Created on 2018-01-25T10:53:53.343
+Unexpected IOException with stream: 10:53:53.342 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Connection discarded
+
+
+# Created on 2018-01-25T10:53:53.343
+Unexpected IOException with stream: 10:53:53.343 [Forwarding get on session 23bd8cbb970fa18f2e93675e1a2ab17b to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 11][route: {}->http://localhost:16098][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+

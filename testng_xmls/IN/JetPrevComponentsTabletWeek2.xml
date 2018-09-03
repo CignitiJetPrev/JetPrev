@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+    
+   <!--  <test  name="Default test1">
+   
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="4"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidTabletComponents.JetPrev_Smoke_AndroidTabletComponent_ActionButtonExternalURL" />
+		</classes>
+	 </test>
+	  -->
+	
+    <test  name="Default test2">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="2"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidTabletComponents.JetPrev_Smoke_AndroidTabletComponent_ExpandcollapseTitle" />
+		</classes>
+	</test> 
+		<!--
+	   <test name="Default test3">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="2"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidTabletComponents.JetPrev_Smoke_AndroidTabletComponent_FormLabel" />
+		</classes>
+</test>  -->
+       <!--  <test  name="Default test3">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="7"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidTabletComponents.JetPrev_Smoke_AndroidTabletComponent_H1" />
+		</classes>
+	</test>  -->
+<!-- 	   	  
+<test  name="Default test4">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="7"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidTabletComponents.JetPrev_Smoke_AndroidTabletComponent_H2" />
+		</classes>
+	</test>
+	
+ <test name="Default test5">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="8"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidTabletComponents.JetPrev_Smoke_AndroidTabletComponent_H3" />
+		</classes>
+</test> 
+        
+   <test  name="Default test6">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="9"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidTabletComponents.JetPrev_Smoke_AndroidTabletComponent_IconNotification" />
+		</classes>
+	</test>    -->
+
+ 	 <!-- 	  <test  name="Default test7">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="10"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidTabletComponents.JetPrev_Smoke_AndroidTabletComponent_MFButton" />
+		</classes>
+	</test> 
+	<test name="Default test8">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="9"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidTabletComponents.JetPrev_Smoke_AndroidTabletComponent_PostLoginNotification" />
+		</classes>
+</test>   -->
+ 	   
+ 	    <test  name="Default test9">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="4"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidTabletComponents.JetPrev_Smoke_AndroidTabletComponent_whitebtn_Week2" />
+		</classes>
+	</test> 
+	
+ 	    
+  
+</suite> 

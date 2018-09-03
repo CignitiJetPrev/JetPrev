@@ -1,0 +1,1162 @@
+# Created on 2018-08-10T21:52:35.603
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created on 2018-08-10T21:52:38.688
+Unexpected IOException with stream: Test_Details_Chrome!AO2:AO2
+
+
+# Created on 2018-08-10T21:52:39.555
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-10T21:52:39.555
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:39.556
+Unexpected IOException with stream: Name, Major
+
+
+# Created on 2018-08-10T21:52:39.557
+Unexpected IOException with stream: FAIL
+
+# Created on 2018-08-10T21:52:39.558
+Unexpected IOException with stream:  
+
+
+# Created on 2018-08-10T21:52:39.559
+Unexpected IOException with stream: 21:52:39.558 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+
+
+# Created on 2018-08-10T21:52:39.560
+Unexpected IOException with stream: 21:52:39.559 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+
+
+# Created on 2018-08-10T21:52:39.560
+Unexpected IOException with stream: 21:52:39.560 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:38705][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-08-10T21:52:39.561
+Unexpected IOException with stream: 21:52:39.561 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "[read] I/O error: Read timed out"
+
+
+# Created on 2018-08-10T21:52:39.562
+Unexpected IOException with stream: 21:52:39.561 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://localhost:38705][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-08-10T21:52:39.562
+Unexpected IOException with stream: 21:52:39.562 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Stale connection check
+
+
+# Created on 2018-08-10T21:52:39.564
+Unexpected IOException with stream: 21:52:39.564 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "[read] I/O error: Read timed out"
+
+
+# Created on 2018-08-10T21:52:39.565
+Unexpected IOException with stream: 21:52:39.564 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 10800000
+
+
+# Created on 2018-08-10T21:52:39.566
+Unexpected IOException with stream: 21:52:39.565 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /session/862fed1dce3565f64965ee881eac7eea/element HTTP/1.1
+
+
+# Created on 2018-08-10T21:52:39.566
+Unexpected IOException with stream: 21:52:39.566 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+
+
+# Created on 2018-08-10T21:52:39.567
+Unexpected IOException with stream: 21:52:39.566 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+
+
+# Created on 2018-08-10T21:52:39.567
+Unexpected IOException with stream: 21:52:39.567 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> POST /session/862fed1dce3565f64965ee881eac7eea/element HTTP/1.1
+
+
+# Created on 2018-08-10T21:52:39.568
+Unexpected IOException with stream: 21:52:39.568 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+
+
+# Created on 2018-08-10T21:52:39.569
+Unexpected IOException with stream: 21:52:39.568 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Length: 36
+
+
+# Created on 2018-08-10T21:52:39.570
+Unexpected IOException with stream: 21:52:39.569 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Host: localhost:38705
+
+
+# Created on 2018-08-10T21:52:39.570
+Unexpected IOException with stream: 21:52:39.570 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Connection: Keep-Alive
+
+
+# Created on 2018-08-10T21:52:39.571
+Unexpected IOException with stream: 21:52:39.570 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)
+
+
+# Created on 2018-08-10T21:52:39.572
+Unexpected IOException with stream: 21:52:39.571 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+
+
+# Created on 2018-08-10T21:52:39.572
+Unexpected IOException with stream: 21:52:39.572 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "POST /session/862fed1dce3565f64965ee881eac7eea/element HTTP/1.1[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:39.574
+Unexpected IOException with stream: 21:52:39.572 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:39.575
+Unexpected IOException with stream: 21:52:39.574 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Length: 36[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:39.576
+Unexpected IOException with stream: 21:52:39.575 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Host: localhost:38705[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:39.577
+Unexpected IOException with stream: 21:52:39.576 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:39.577
+Unexpected IOException with stream: 21:52:39.577 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:39.578
+Unexpected IOException with stream: 21:52:39.578 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:39.579
+Unexpected IOException with stream: 21:52:39.578 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:39.579
+Unexpected IOException with stream: 21:52:39.579 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "{"using":"tag name","value":"table"}"
+
+
+# Created on 2018-08-10T21:52:41.582
+Unexpected IOException with stream: [
+
+# Created on 2018-08-10T21:52:41.583
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-10T21:52:41.585
+Unexpected IOException with stream: 5
+
+# Created on 2018-08-10T21:52:41.587
+Unexpected IOException with stream: 3
+
+# Created on 2018-08-10T21:52:41.589
+Unexpected IOException with stream: 3
+
+# Created on 2018-08-10T21:52:41.590
+Unexpected IOException with stream: 9
+
+# Created on 2018-08-10T21:52:41.593
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-10T21:52:41.594
+Unexpected IOException with stream: 8
+
+# Created on 2018-08-10T21:52:41.596
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-10T21:52:41.598
+Unexpected IOException with stream: 6
+
+# Created on 2018-08-10T21:52:41.599
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-10T21:52:41.601
+Unexpected IOException with stream: .
+
+# Created on 2018-08-10T21:52:41.602
+Unexpected IOException with stream: 5
+
+# Created on 2018-08-10T21:52:41.604
+Unexpected IOException with stream: 8
+
+# Created on 2018-08-10T21:52:41.606
+Unexpected IOException with stream: 0
+
+# Created on 2018-08-10T21:52:41.607
+Unexpected IOException with stream: ]
+
+# Created on 2018-08-10T21:52:41.607
+Unexpected IOException with stream: [
+
+# Created on 2018-08-10T21:52:41.607
+Unexpected IOException with stream: W
+
+# Created on 2018-08-10T21:52:41.607
+Unexpected IOException with stream: A
+
+# Created on 2018-08-10T21:52:41.607
+Unexpected IOException with stream: R
+
+# Created on 2018-08-10T21:52:41.607
+Unexpected IOException with stream: N
+
+# Created on 2018-08-10T21:52:41.607
+Unexpected IOException with stream: I
+
+# Created on 2018-08-10T21:52:41.607
+Unexpected IOException with stream: N
+
+# Created on 2018-08-10T21:52:41.607
+Unexpected IOException with stream: G
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: ]
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: :
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: T
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: i
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: m
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: e
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: d
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: o
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: u
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: t
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: c
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: o
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: n
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: n
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: e
+
+# Created on 2018-08-10T21:52:41.623
+Unexpected IOException with stream: c
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: t
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: i
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: n
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: g
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: t
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: o
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: C
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: h
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: r
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: o
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: m
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: e
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: ,
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:41.639
+Unexpected IOException with stream: r
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: e
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: t
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: r
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: y
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: i
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: n
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: g
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: .
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: .
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: .
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: 
+
+# Created on 2018-08-10T21:52:41.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.592
+Unexpected IOException with stream: 21:52:45.590 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:45.594
+Unexpected IOException with stream: 21:52:45.592 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Length:267[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:45.596
+Unexpected IOException with stream: 21:52:45.594 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:45.597
+Unexpected IOException with stream: 21:52:45.596 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:45.599
+Unexpected IOException with stream: 21:52:45.598 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "{"sessionId":"862fed1dce3565f64965ee881eac7eea","status":100,"value":{"message":"chrome not reachable\n  (Session info: chrome=68.0.3440.84)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.10586 x86_64)"}}"
+
+
+# Created on 2018-08-10T21:52:45.601
+Unexpected IOException with stream: 21:52:45.600 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 << HTTP/1.1 200 OK
+
+
+# Created on 2018-08-10T21:52:45.603
+Unexpected IOException with stream: 21:52:45.601 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Length:267
+
+
+# Created on 2018-08-10T21:52:45.605
+Unexpected IOException with stream: 21:52:45.603 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+
+
+# Created on 2018-08-10T21:52:45.606
+Unexpected IOException with stream: 21:52:45.605 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+
+
+# Created on 2018-08-10T21:52:45.607
+Unexpected IOException with stream: 21:52:45.607 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 1][route: {}->http://localhost:38705] can be kept alive indefinitely
+
+
+# Created on 2018-08-10T21:52:45.607
+Unexpected IOException with stream: 21:52:45.607 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {}->http://localhost:38705][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-08-10T21:52:45.607
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.84)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.05 seconds
+Build info: version: 'unknown', revision: 'f233563', time: '2016-07-28 17:43:42 -0700'
+System info: host: 'CTLINDT-0708', ip: '10.62.66.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57528}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\E001888\AppData\Local\Temp\scoped_dir11044_27377}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.84, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 862fed1dce3565f64965ee881eac7eea
+*** Element info: {Using=tag name, value=table}
+
+# Created on 2018-08-10T21:52:45.607
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.607
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created on 2018-08-10T21:52:45.607
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.623
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created on 2018-08-10T21:52:45.623
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.623
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created on 2018-08-10T21:52:45.623
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.623
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created on 2018-08-10T21:52:45.623
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.623
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+
+# Created on 2018-08-10T21:52:45.623
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByTagName(RemoteWebDriver.java:457)
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByTagName.findElement(By.java:334)
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.638
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 	at com.web.automation.listeners.WebDriverListener.beforeFindBy(WebDriverListener.java:101)
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:80)
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy9.beforeFindBy(Unknown Source)
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:175)
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 	at com.jetPrev.workflows_BrowserFunctionality.JetPrevWorkflows.fnComponentTable2(JetPrevWorkflows.java:2882)
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 	at com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider.JetPrev_Component_BreadcrumPresentation(JetPrev_Smoke_Component_A_Dataprovider.java:802)
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created on 2018-08-10T21:52:45.654
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.670
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created on 2018-08-10T21:52:45.670
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.671
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created on 2018-08-10T21:52:45.672
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.673
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created on 2018-08-10T21:52:45.673
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.674
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+
+# Created on 2018-08-10T21:52:45.675
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.676
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+
+# Created on 2018-08-10T21:52:45.676
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.677
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+
+# Created on 2018-08-10T21:52:45.678
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.678
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+
+# Created on 2018-08-10T21:52:45.679
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.679
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+
+# Created on 2018-08-10T21:52:45.680
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.680
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+
+# Created on 2018-08-10T21:52:45.681
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.681
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+
+# Created on 2018-08-10T21:52:45.682
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.682
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:632)
+
+# Created on 2018-08-10T21:52:45.683
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.684
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+
+# Created on 2018-08-10T21:52:45.684
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.685
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+
+# Created on 2018-08-10T21:52:45.685
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.686
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+
+# Created on 2018-08-10T21:52:45.686
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.687
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+
+# Created on 2018-08-10T21:52:45.688
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.688
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created on 2018-08-10T21:52:45.689
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.689
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+
+# Created on 2018-08-10T21:52:45.690
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.691
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+
+# Created on 2018-08-10T21:52:45.691
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.692
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+
+# Created on 2018-08-10T21:52:45.693
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.693
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1064)
+
+# Created on 2018-08-10T21:52:45.694
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.695
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created on 2018-08-10T21:52:45.695
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.696
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created on 2018-08-10T21:52:45.696
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.697
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created on 2018-08-10T21:52:45.698
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.699
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+
+# Created on 2018-08-10T21:52:45.699
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.700
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+
+# Created on 2018-08-10T21:52:45.701
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.701
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+# Created on 2018-08-10T21:52:45.702
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:45.704
+Unexpected IOException with stream: Test_Details_Chrome!B2:B553
+
+
+# Created on 2018-08-10T21:52:46.520
+Unexpected IOException with stream: 2
+
+# Created on 2018-08-10T21:52:46.521
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:46.521
+Unexpected IOException with stream: Device, ScriptName
+
+
+# Created on 2018-08-10T21:52:46.522
+Unexpected IOException with stream: URL_ID_1
+
+
+# Created on 2018-08-10T21:52:46.523
+Unexpected IOException with stream: ***************************************************************************************
+
+
+# Created on 2018-08-10T21:52:46.523
+Unexpected IOException with stream: ReportStatus.blnElementStatus  ==> true
+
+
+# Created on 2018-08-10T21:52:46.524
+Unexpected IOException with stream: blnStatus  ==> false
+
+
+# Created on 2018-08-10T21:52:46.525
+Unexpected IOException with stream: ***************************************************************************************
+
+
+# Created on 2018-08-10T21:52:49.620
+Unexpected IOException with stream: Test_Details_Chrome!AP2:AP2
+
+
+# Created on 2018-08-10T21:52:50.422
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-10T21:52:50.423
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-10T21:52:50.425
+Unexpected IOException with stream: Name, Major
+
+
+# Created on 2018-08-10T21:52:50.426
+Unexpected IOException with stream: FAIL
+
+# Created on 2018-08-10T21:52:50.427
+Unexpected IOException with stream:  
+
+
+# Created on 2018-08-10T21:52:50.428
+Unexpected IOException with stream: 21:52:50.427 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+
+
+# Created on 2018-08-10T21:52:50.429
+Unexpected IOException with stream: 21:52:50.428 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+
+
+# Created on 2018-08-10T21:52:50.430
+Unexpected IOException with stream: 21:52:50.429 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:38705][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-08-10T21:52:50.431
+Unexpected IOException with stream: 21:52:50.431 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "[read] I/O error: Read timed out"
+
+
+# Created on 2018-08-10T21:52:50.432
+Unexpected IOException with stream: 21:52:50.432 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://localhost:38705][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-08-10T21:52:50.433
+Unexpected IOException with stream: 21:52:50.433 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Stale connection check
+
+
+# Created on 2018-08-10T21:52:50.434
+Unexpected IOException with stream: 21:52:50.434 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "[read] I/O error: Read timed out"
+
+
+# Created on 2018-08-10T21:52:50.435
+Unexpected IOException with stream: 21:52:50.435 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 10800000
+
+
+# Created on 2018-08-10T21:52:50.436
+Unexpected IOException with stream: 21:52:50.436 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /session/862fed1dce3565f64965ee881eac7eea/element HTTP/1.1
+
+
+# Created on 2018-08-10T21:52:50.437
+Unexpected IOException with stream: 21:52:50.436 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+
+
+# Created on 2018-08-10T21:52:50.438
+Unexpected IOException with stream: 21:52:50.438 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+
+
+# Created on 2018-08-10T21:52:50.439
+Unexpected IOException with stream: 21:52:50.439 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> POST /session/862fed1dce3565f64965ee881eac7eea/element HTTP/1.1
+
+
+# Created on 2018-08-10T21:52:50.440
+Unexpected IOException with stream: 21:52:50.440 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+
+
+# Created on 2018-08-10T21:52:50.441
+Unexpected IOException with stream: 21:52:50.441 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Length: 36
+
+
+# Created on 2018-08-10T21:52:50.442
+Unexpected IOException with stream: 21:52:50.442 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Host: localhost:38705
+
+
+# Created on 2018-08-10T21:52:50.444
+Unexpected IOException with stream: 21:52:50.443 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Connection: Keep-Alive
+
+
+# Created on 2018-08-10T21:52:50.445
+Unexpected IOException with stream: 21:52:50.444 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)
+
+
+# Created on 2018-08-10T21:52:50.446
+Unexpected IOException with stream: 21:52:50.445 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+
+
+# Created on 2018-08-10T21:52:50.447
+Unexpected IOException with stream: 21:52:50.446 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "POST /session/862fed1dce3565f64965ee881eac7eea/element HTTP/1.1[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:50.448
+Unexpected IOException with stream: 21:52:50.447 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:50.449
+Unexpected IOException with stream: 21:52:50.449 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Length: 36[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:50.450
+Unexpected IOException with stream: 21:52:50.450 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Host: localhost:38705[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:50.451
+Unexpected IOException with stream: 21:52:50.450 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:50.452
+Unexpected IOException with stream: 21:52:50.451 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_91)[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:50.453
+Unexpected IOException with stream: 21:52:50.453 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:50.455
+Unexpected IOException with stream: 21:52:50.454 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+
+
+# Created on 2018-08-10T21:52:50.456
+Unexpected IOException with stream: 21:52:50.455 [Forwarding findElement on session 862fed1dce3565f64965ee881eac7eea to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "{"using":"tag name","value":"table"}"
+
+
+# Created on 2018-08-10T21:52:52.463
+Unexpected IOException with stream: [
+
+# Created on 2018-08-10T21:52:52.463
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-10T21:52:52.463
+Unexpected IOException with stream: 5
+
+# Created on 2018-08-10T21:52:52.463
+Unexpected IOException with stream: 3
+
+# Created on 2018-08-10T21:52:52.463
+Unexpected IOException with stream: 3
+
+# Created on 2018-08-10T21:52:52.463
+Unexpected IOException with stream: 9
+
+# Created on 2018-08-10T21:52:52.463
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-10T21:52:52.463
+Unexpected IOException with stream: 8
+
+# Created on 2018-08-10T21:52:52.463
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-10T21:52:52.463
+Unexpected IOException with stream: 7
+
+# Created on 2018-08-10T21:52:52.479
+Unexpected IOException with stream: 2
+
+# Created on 2018-08-10T21:52:52.480
+Unexpected IOException with stream: .
+
+# Created on 2018-08-10T21:52:52.482
+Unexpected IOException with stream: 4
+
+# Created on 2018-08-10T21:52:52.484
+Unexpected IOException with stream: 6
+
+# Created on 2018-08-10T21:52:52.485
+Unexpected IOException with stream: 3
+
+# Created on 2018-08-10T21:52:52.487
+Unexpected IOException with stream: ]
+
+# Created on 2018-08-10T21:52:52.488
+Unexpected IOException with stream: [
+
+# Created on 2018-08-10T21:52:52.489
+Unexpected IOException with stream: W
+
+# Created on 2018-08-10T21:52:52.491
+Unexpected IOException with stream: A
+
+# Created on 2018-08-10T21:52:52.493
+Unexpected IOException with stream: R
+
+# Created on 2018-08-10T21:52:52.495
+Unexpected IOException with stream: N
+
+# Created on 2018-08-10T21:52:52.496
+Unexpected IOException with stream: I
+
+# Created on 2018-08-10T21:52:52.497
+Unexpected IOException with stream: N
+
+# Created on 2018-08-10T21:52:52.499
+Unexpected IOException with stream: G
+
+# Created on 2018-08-10T21:52:52.500
+Unexpected IOException with stream: ]
+
+# Created on 2018-08-10T21:52:52.502
+Unexpected IOException with stream: :
+
+# Created on 2018-08-10T21:52:52.503
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:52.504
+Unexpected IOException with stream: T
+
+# Created on 2018-08-10T21:52:52.505
+Unexpected IOException with stream: i
+
+# Created on 2018-08-10T21:52:52.505
+Unexpected IOException with stream: m
+
+# Created on 2018-08-10T21:52:52.506
+Unexpected IOException with stream: e
+
+# Created on 2018-08-10T21:52:52.506
+Unexpected IOException with stream: d
+
+# Created on 2018-08-10T21:52:52.507
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:52.507
+Unexpected IOException with stream: o
+
+# Created on 2018-08-10T21:52:52.508
+Unexpected IOException with stream: u
+
+# Created on 2018-08-10T21:52:52.509
+Unexpected IOException with stream: t
+
+# Created on 2018-08-10T21:52:52.509
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:52.510
+Unexpected IOException with stream: c
+
+# Created on 2018-08-10T21:52:52.510
+Unexpected IOException with stream: o
+
+# Created on 2018-08-10T21:52:52.511
+Unexpected IOException with stream: n
+
+# Created on 2018-08-10T21:52:52.511
+Unexpected IOException with stream: n
+
+# Created on 2018-08-10T21:52:52.512
+Unexpected IOException with stream: e
+
+# Created on 2018-08-10T21:52:52.513
+Unexpected IOException with stream: c
+
+# Created on 2018-08-10T21:52:52.513
+Unexpected IOException with stream: t
+
+# Created on 2018-08-10T21:52:52.514
+Unexpected IOException with stream: i
+
+# Created on 2018-08-10T21:52:52.514
+Unexpected IOException with stream: n
+
+# Created on 2018-08-10T21:52:52.515
+Unexpected IOException with stream: g
+
+# Created on 2018-08-10T21:52:52.516
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:52.516
+Unexpected IOException with stream: t
+
+# Created on 2018-08-10T21:52:52.517
+Unexpected IOException with stream: o
+
+# Created on 2018-08-10T21:52:52.517
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:52.518
+Unexpected IOException with stream: C
+
+# Created on 2018-08-10T21:52:52.518
+Unexpected IOException with stream: h
+
+# Created on 2018-08-10T21:52:52.519
+Unexpected IOException with stream: r
+
+# Created on 2018-08-10T21:52:52.520
+Unexpected IOException with stream: o
+
+# Created on 2018-08-10T21:52:52.520
+Unexpected IOException with stream: m
+
+# Created on 2018-08-10T21:52:52.521
+Unexpected IOException with stream: e
+
+# Created on 2018-08-10T21:52:52.521
+Unexpected IOException with stream: ,
+
+# Created on 2018-08-10T21:52:52.522
+Unexpected IOException with stream:  
+
+# Created on 2018-08-10T21:52:52.522
+Unexpected IOException with stream: r
+
+# Created on 2018-08-10T21:52:52.523
+Unexpected IOException with stream: e
+
+# Created on 2018-08-10T21:52:52.524
+Unexpected IOException with stream: t
+
+# Created on 2018-08-10T21:52:52.524
+Unexpected IOException with stream: r
+
+# Created on 2018-08-10T21:52:52.524
+Unexpected IOException with stream: y
+
+# Created on 2018-08-10T21:52:52.524
+Unexpected IOException with stream: i
+
+# Created on 2018-08-10T21:52:52.524
+Unexpected IOException with stream: n
+
+# Created on 2018-08-10T21:52:52.524
+Unexpected IOException with stream: g
+
+# Created on 2018-08-10T21:52:52.524
+Unexpected IOException with stream: .
+
+# Created on 2018-08-10T21:52:52.524
+Unexpected IOException with stream: .
+
+# Created on 2018-08-10T21:52:52.524
+Unexpected IOException with stream: .
+
+# Created on 2018-08-10T21:52:52.524
+Unexpected IOException with stream: 
+
+# Created on 2018-08-10T21:52:52.524
+Unexpected IOException with stream: 
+
+

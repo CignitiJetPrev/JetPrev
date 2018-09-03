@@ -1,0 +1,583 @@
+# Created on 2018-08-07T12:26:59.036
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created on 2018-08-07T12:26:59.665
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+
+# Created on 2018-08-07T12:26:59.666
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:26:59.667
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1064)
+
+# Created on 2018-08-07T12:26:59.668
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:26:59.669
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created on 2018-08-07T12:26:59.670
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:26:59.670
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created on 2018-08-07T12:26:59.671
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:26:59.672
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created on 2018-08-07T12:26:59.673
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:26:59.673
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+
+# Created on 2018-08-07T12:26:59.674
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:26:59.675
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+
+# Created on 2018-08-07T12:26:59.675
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:26:59.676
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+# Created on 2018-08-07T12:26:59.677
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:26:59.678
+Unexpected IOException: 8,1,com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider,beforeMethod(com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider),null,unknown error: Chrome failed to start: exited normally\000A  (chrome not reachable)\000A  (The process started from chrome location C:\005CProgram Files (x86)\005CGoogle\005CChrome\005CApplication\005Cchrome.exe is no longer running\002C so ChromeDriver is assuming that Chrome has crashed.)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 6.41 seconds\000ABuild info: version: 'unknown'\002C revision: 'f233563'\002C time: '2016-07-28 17:43:42 -0700'\000ASystem info: host: 'CTLINDT-0708'\002C ip: '10.62.66.152'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_91'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver,null,unknown error: Chrome failed to start: exited normally\000A  (chrome not reachable)\000A  (The process started from chrome location C:\005CProgram Files (x86)\005CGoogle\005CChrome\005CApplication\005Cchrome.exe is no longer running\002C so ChromeDriver is assuming that Chrome has crashed.)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 6.41 seconds\000ABuild info: version: 'unknown'\002C revision: 'f233563'\002C time: '2016-07-28 17:43:42 -0700'\000ASystem info: host: 'CTLINDT-0708'\002C ip: '10.62.66.152'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_91'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver,JetPrev_Smoke_Component_A_Dataprovider>TestEngineWeb.beforeMethod:1016 unknown error: Chrome failed to start: exited normally\000A  (chrome not reachable)\000A  (The process started from chrome location C:\005CProgram Files (x86)\005CGoogle\005CChrome\005CApplication\005Cchrome.exe is no longer running\002C so ChromeDriver is assuming that Chrome has crashed.)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 6.41 seconds\000ABuild info: version: 'unknown'\002C revision: 'f233563'\002C time: '2016-07-28 17:43:42 -0700'\000ASystem info: host: 'CTLINDT-0708'\002C ip: '10.62.66.152'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_91'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver,java.lang.AssertionError: \000Aunknown error: Chrome failed to start: exited normally\000A  (chrome not reachable)\000A  (The process started from chrome location C:\005CProgram Files (x86)\005CGoogle\005CChrome\005CApplication\005Cchrome.exe is no longer running\002C so ChromeDriver is assuming that Chrome has crashed.)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 6.41 seconds\000ABuild info: version: 'unknown'\002C revision: 'f233563'\002C time: '2016-07-28 17:43:42 -0700'\000ASystem info: host: 'CTLINDT-0708'\002C ip: '10.62.66.152'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_91'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000A
+
+
+# Created on 2018-08-07T12:26:59.706
+Unexpected IOException: 5,1,com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider,JetPrev_Component_BreadcrumPresentation(com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider),regression\002Csmoke,null,null
+
+
+# Created on 2018-08-07T12:26:59.708
+Unexpected IOException: 9,1,com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider,JetPrev_Component_BreadcrumPresentation(com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider),null,null,null
+
+
+# Created on 2018-08-07T12:26:59.709
+Unexpected IOException with stream: ********* Method Description : JetPrev *********
+
+
+# Created on 2018-08-07T12:27:00.039
+Unexpected IOException with stream: log4j:WARN No appenders could be found for logger (freemarker.cache).
+
+
+# Created on 2018-08-07T12:27:00.040
+Unexpected IOException with stream: log4j:WARN Please initialize the log4j system properly.
+
+
+# Created on 2018-08-07T12:27:00.041
+Unexpected IOException with stream: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+
+
+# Created on 2018-08-07T12:27:00.301
+Unexpected IOException with stream: ***** HTML report Successfully Generated ***** !!!!
+
+
+# Created on 2018-08-07T12:27:00.328
+Unexpected IOException with stream: FAILED CONFIGURATION: @BeforeTest beforeTest("chrome", org.testng.TestRunner@4b20ca2b)
+java.lang.AssertionError: unknown error: Chrome failed to start: exited normally
+  (unknown error: unable to discover open pages)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.98 seconds
+Build info: version: 'unknown', revision: 'f233563', time: '2016-07-28 17:43:42 -0700'
+System info: host: 'CTLINDT-0708', ip: '10.62.66.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.web.automation.accelerators.ActionsLibrary.instantiateDriver(ActionsLibrary.java:1661)
+	at com.web.automation.accelerators.TestEngineWeb.beforeClass(TestEngineWeb.java:909)
+	at com.web.automation.accelerators.TestEngineWeb.beforeTest(TestEngineWeb.java:653)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+
+# Created on 2018-08-07T12:27:00.329
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.330
+Unexpected IOException with stream: FAILED CONFIGURATION: @BeforeMethod beforeMethod(public void com.jetPrev.scripts_Components.JetPrev_Smoke_Component_A_Dataprovider.JetPrev_Component_BreadcrumPresentation(int,int) throws java.lang.Throwable)
+java.lang.AssertionError: unknown error: Chrome failed to start: exited normally
+  (chrome not reachable)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.41 seconds
+Build info: version: 'unknown', revision: 'f233563', time: '2016-07-28 17:43:42 -0700'
+System info: host: 'CTLINDT-0708', ip: '10.62.66.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.web.automation.accelerators.ActionsLibrary.instantiateDriver(ActionsLibrary.java:1661)
+	at com.web.automation.accelerators.TestEngineWeb.beforeMethod(TestEngineWeb.java:1016)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+
+# Created on 2018-08-07T12:27:00.331
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.332
+Unexpected IOException with stream: SKIPPED: JetPrev_Component_BreadcrumPresentation(21, 40)
+         JetPrev
+
+# Created on 2018-08-07T12:27:00.332
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.333
+Unexpected IOException with stream: 
+===============================================
+    Default test3
+    Tests run: 1, Failures: 0, Skips: 1
+    Configuration Failures: 2, Skips: 0
+===============================================
+
+
+# Created on 2018-08-07T12:27:00.333
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.350
+Unexpected IOException with stream: java.lang.NullPointerException
+
+# Created on 2018-08-07T12:27:00.350
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.351
+Unexpected IOException with stream: 	at com.web.automation.accelerators.TestEngineWeb.afterSuite(TestEngineWeb.java:259)
+
+# Created on 2018-08-07T12:27:00.351
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.352
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created on 2018-08-07T12:27:00.353
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.353
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created on 2018-08-07T12:27:00.354
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.355
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created on 2018-08-07T12:27:00.355
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.356
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created on 2018-08-07T12:27:00.356
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.357
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+
+# Created on 2018-08-07T12:27:00.358
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.358
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+
+# Created on 2018-08-07T12:27:00.359
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.359
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+
+# Created on 2018-08-07T12:27:00.360
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.360
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+
+# Created on 2018-08-07T12:27:00.361
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.362
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)
+
+# Created on 2018-08-07T12:27:00.362
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.363
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+
+# Created on 2018-08-07T12:27:00.363
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.364
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created on 2018-08-07T12:27:00.365
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.365
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+
+# Created on 2018-08-07T12:27:00.366
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.366
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+
+# Created on 2018-08-07T12:27:00.367
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.367
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+
+# Created on 2018-08-07T12:27:00.368
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.368
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1064)
+
+# Created on 2018-08-07T12:27:00.369
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.370
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created on 2018-08-07T12:27:00.370
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.371
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created on 2018-08-07T12:27:00.371
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.372
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created on 2018-08-07T12:27:00.372
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.373
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+
+# Created on 2018-08-07T12:27:00.374
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.374
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+
+# Created on 2018-08-07T12:27:00.375
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.375
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+# Created on 2018-08-07T12:27:00.376
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.376
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.377
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.398
+Unexpected IOException with stream: java.lang.NullPointerException
+
+# Created on 2018-08-07T12:27:00.399
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.400
+Unexpected IOException with stream: 	at java.util.Hashtable.put(Hashtable.java:459)
+
+# Created on 2018-08-07T12:27:00.400
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.401
+Unexpected IOException with stream: 	at com.web.automation.email.SendEmail.sendEmailReport(SendEmail.java:37)
+
+# Created on 2018-08-07T12:27:00.401
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.402
+Unexpected IOException with stream: 	at com.web.automation.accelerators.TestEngineWeb.afterSuite(TestEngineWeb.java:288)
+
+# Created on 2018-08-07T12:27:00.402
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.403
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created on 2018-08-07T12:27:00.404
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.404
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created on 2018-08-07T12:27:00.405
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.405
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created on 2018-08-07T12:27:00.406
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.407
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created on 2018-08-07T12:27:00.407
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.408
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+
+# Created on 2018-08-07T12:27:00.408
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.409
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+
+# Created on 2018-08-07T12:27:00.409
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.410
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+
+# Created on 2018-08-07T12:27:00.410
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.411
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+
+# Created on 2018-08-07T12:27:00.412
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.413
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)
+
+# Created on 2018-08-07T12:27:00.413
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.414
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+
+# Created on 2018-08-07T12:27:00.414
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.415
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created on 2018-08-07T12:27:00.416
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.416
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+
+# Created on 2018-08-07T12:27:00.417
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.417
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+
+# Created on 2018-08-07T12:27:00.418
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.418
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+
+# Created on 2018-08-07T12:27:00.419
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.420
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1064)
+
+# Created on 2018-08-07T12:27:00.420
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.421
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created on 2018-08-07T12:27:00.422
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.422
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created on 2018-08-07T12:27:00.423
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.423
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created on 2018-08-07T12:27:00.424
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.425
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+
+# Created on 2018-08-07T12:27:00.425
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.426
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+
+# Created on 2018-08-07T12:27:00.426
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.427
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+# Created on 2018-08-07T12:27:00.427
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-07T12:27:00.484
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.XMLReporter@6a41eaa2: 5 ms
+
+
+# Created on 2018-08-07T12:27:00.492
+Unexpected IOException with stream: [TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 7 ms
+
+
+# Created on 2018-08-07T12:27:00.497
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.EmailableReporter2@7d9d1a19: 4 ms
+
+
+# Created on 2018-08-07T12:27:00.574
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6f7fd0e6: 76 ms
+
+
+# Created on 2018-08-07T12:27:00.591
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@42e26948: 16 ms
+
+
+# Created on 2018-08-07T12:27:00.616
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.jq.Main@66a3ffec: 24 ms
+
+
+# Created on 2018-08-07T12:27:00.616
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

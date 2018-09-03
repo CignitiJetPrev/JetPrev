@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+		
+	<!--  <test verbose="2" name="Default test1">
+		<parameter name="browserChromeOption" value="chromemobile"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC031_mobileEmulation" />
+		</classes>
+	</test> 
+	<test verbose="2" name="Default test2">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC014_recommendedCategories" />
+		</classes>
+	</test>   -->
+	  <test verbose="2" name="Default test3">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC032_Webaccessiblity" />
+		</classes>
+	</test>  
+	 <!-- <test verbose="2" name="Default test4">
+		<parameter name="browserChromeOption" value="firefox"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC033_Brandingguidelines" />
+		</classes>
+	</test>  -->
+
+
+</suite> 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+	<test verbose="2" name="Default test">
+
+	 <classes>
+
+
+	<class name="com.jetPrev.scripts_Validation.ShopJetPrev_TC030_Category" />
+	<class name="com.jetPrev.scripts_Validation.ShopJetPrev_TC029_placeorderBabycare" />
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC028_price" />
+	<class name="com.jetPrev.scripts_Validation.ShopJetPrev_TC027_totalresult" />
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC026_Navigation" />
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC025_sortBy" />
+	<class name="com.jetPrev.scripts_Validation.ShopJetPrev_TC024_FnCloseBtn" />
+	<class name="com.jetPrev.scripts_Validation.ShopJetPrev_TC023_FnBrowserBackBtn" />
+	<class name="com.jetPrev.scripts_Validation.ShopJetPrev_TC022_FnHomeicon" />
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC021_Cat" />
+	<class name="com.jetPrev.scripts_Validation.ShopJetPrev_TC020_HoveronCate" />
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC019_StaticBanner" />
+	<class name="com.jetPrev.scripts_Validation.ShopJetPrev_TC018_GoQuicklyLink" />
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC017_Header" />
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC016_Search" />
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC015_recommendedProducts" />
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC014_recommendedCategories" />
+	<class name="com.jetPrev.scripts_BrowserFunctionality.ShopJetPrev_TC013_quicklyFlow" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC012_SearchProduct" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC011_Lenskart" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC010_TataCliq" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC009_Woohoo" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC008_Myntra" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC007_UrbanLadder" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC006_FirstCry" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC005_Flipkart" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC004_Nykaa" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC003_HappilyUnmarried" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC002_BigBasket" />
+	<class name="com.jetPrev.scripts_OnlinePartner.JetPrev_TC001_Amazon" />
+	
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->

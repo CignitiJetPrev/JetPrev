@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+     
+      <!-- <test  name="Default test1">
+   
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="20"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_ContentLevelTab" />
+		</classes>
+	 </test>  -->
+	 
+	
+   <!-- <test  name="Default test2">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="19"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_PartnerBrickA" />
+		</classes>
+	</test>  -->
+	 	
+	<!--     <test name="Default test3">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="17"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_PartnerBrickonRHS" />
+		</classes>
+</test>  
+
+      <test  name="Default test4">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="17"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_PartnerBrickonRHSDetail" />
+		</classes>
+	</test> 
+	   	  
+ <test  name="Default test5">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="19"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_PartnerBricktypeOne" />
+		</classes>
+	</test>
+	
+  <test name="Default test6">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="18"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_PartnerBricktypeTwo" />
+		</classes>
+</test>
+      
+  <test  name="Default test7">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="18"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_PartnerBricktypeTwoFooter" />
+		</classes>
+	</test>  
+
+ 	 	  <test  name="Default test8">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="21"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_ThirdLeveltabActive" />
+		</classes>
+	</test>   
+	
+ 	 	  
+	  <test name="Default test9">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="21"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_ThirdLeveltabInActive" />
+		</classes>
+</test> 
+ 	     
+ 	
+ 	  <test  name="Default test10">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="22"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_SecondLevelActive" />
+		</classes>
+	</test>  
+	
+	  <test name="Default test11">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="22"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_SecondLevelInactive" />
+		</classes>
+</test>  -->
+ 	      <test name="Default test12">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="23"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_ToasterPopUp" />
+		</classes>
+</test>
+
+ 	   
+ 	    
+  
+</suite> 

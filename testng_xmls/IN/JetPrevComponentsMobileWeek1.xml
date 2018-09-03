@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+    
+    
+
+     <test  name="Default test1">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_Checkbox" />
+		</classes>
+	</test> 
+	    <!--
+	 <test  name="Default test1">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_CheckboxActive" />
+		</classes>
+	</test> 
+	
+     <test  name="Default test1">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="2"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_Example" />
+		</classes>
+	</test> -->
+    
+    
+ 	
+     <test  name="Default test2">
+   
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_Calendar" />
+		</classes>
+	</test>   
+	
+    
+		
+     <test  name="Default test3">
+   
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_InfoICon" />
+		</classes>
+	</test>  
+	
+  <test  name="Default test4">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_Mandatory" />
+		</classes>
+	</test> 
+		
+  <test name="Default test5">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_PasswordText" />
+		</classes>
+</test> 
+  
+   <test name="Default test6">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_PasswordTextFocus" />
+		</classes>
+</test>
+  		
+  <test name="Default test7">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_Primarybutton" />
+		</classes>
+</test>  
+  
+   <test name="Default test8">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_RadioButton" />
+		</classes>
+</test> 
+ <test name="Default test9">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_SecondaryButton" />
+		</classes>
+</test>
+
+<test name="Default test10">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_TextField" />
+		</classes>
+</test> 
+ <test name="Default test11">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_TextFocus" />
+		</classes>
+</test>
+  <test name="Default test12">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_AndroidMobileComponents.JetPrev_Smoke_AndroidMobileComponent_TextFocusTyped" />
+		</classes>
+</test>
+ 
+  <!--  <test name="Default test13">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_Webaccessibility" />
+		</classes>
+</test> -->   
+
+</suite> 

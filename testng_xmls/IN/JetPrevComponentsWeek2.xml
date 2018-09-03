@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+    
+    <test  name="Default test1">
+   
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="4"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_fnComponentActionButtonExternalURL_Week2" />
+		</classes>
+	 </test>
+	 
+	
+   <test  name="Default test2">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="2"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_ExpandcollapseTitle_Week2" />
+		</classes>
+	</test> 
+		
+	 <!--   <test name="Default test3">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="2"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_FormLabel_Week2" />
+		</classes>
+</test>  -->
+        <test  name="Default test3">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="7"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_H1_Week2" />
+		</classes>
+	</test> 
+	   	  
+<test  name="Default test4">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="7"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_H2_Week2" />
+		</classes>
+	</test>
+	
+ <test name="Default test5">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="8"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_H3_Week2" />
+		</classes>
+</test> 
+       
+   <test  name="Default test6">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="9"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_IconNotification_Week2" />
+		</classes>
+	</test>   
+
+ 	 	  <test  name="Default test7">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="10"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_MFButton_Week2" />
+		</classes>
+	</test>  
+	 <test name="Default test8">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="9"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_PostLoginNotification_Week2" />
+		</classes>
+</test> 
+ 	  
+ 	    <test  name="Default test9">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="4"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_whitebtn_Week2" />
+		</classes>
+	</test>
+	
+	  <test name="Default test10">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Components.JetPrev_Smoke_Component_Webaccessibility" />
+		</classes>
+</test>
+ 	    
+  
+</suite> 

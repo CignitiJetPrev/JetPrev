@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+  <test verbose="2" name="Default test">
+	  <parameter name="COUNTRY" value="IN" />
+	  <parameter name="USER_TYPE" value="Active" />
+      <classes>           
+                            
+       	   <class name="tv.hooq.web.scripts.HOOQ_Web_ActiveUser_AddingFavouriteMovies"/>        	      	          	   
+       	          	           
+       <!--    <class name="tv.hooq.web.scripts.HOOQ_Web_LapsedUser_PlayWatchLaterPremiumContent"/> 
+          <class name="tv.hooq.web.scripts.HOOQ_Web_LapsedUser_PlayWatchLaterTVODContent"/> 
+          <class name="tv.hooq.web.scripts.HOOQ_Web_LapsedUser_PlayWatchLaterTVShows"/> 
+          <class name="tv.hooq.web.scripts.HOOQ_Web_LapsedUser_SettingsAppPlaybackQuality"/>    -->  
+                            
+      </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

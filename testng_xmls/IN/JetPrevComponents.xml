@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+	
+	
+  <test  name="Default test1">
+   
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_Calendar" />
+		</classes>
+	</test> 
+	
+   <!-- <test  name="Default test2">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_Tooltip" />
+		</classes>
+	</test>
+		
+  <test name="Default test3">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_mandatoryfield" />
+		</classes>
+</test>
+         <test  name="Default test4">
+		<parameter name="browserChromeOption" value="ie"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_CalendarIE" />
+		</classes>
+	</test> 
+	   	  
+<test  name="Default test5">
+		<parameter name="browserChromeOption" value="ie"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_TooltipIE" />
+		</classes>
+	</test>
+	
+<test name="Default test6">
+		<parameter name="browserChromeOption" value="ie"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_mandatoryfieldIE" />
+		</classes>
+</test> 
+       
+ 	 <test  name="Default test7">
+		<parameter name="browserChromeOption" value="firefox"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_CalendarFF" />
+		</classes>
+	</test>  
+
+ 	  <test  name="Default test8">
+		<parameter name="browserChromeOption" value="firefox"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_TooltipFF" />
+		</classes>
+	</test> 
+	<test name="Default test9">
+		<parameter name="browserChromeOption" value="firefox"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_mandatoryfieldFF" />
+		</classes>
+</test> 
+ 	  
+ 	    <test  name="Default test10">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_CalendarMobile" />
+		</classes>
+	</test>
+	
+    <test  name="Default test11">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_TooltipMobile" />
+		</classes>
+	</test> 
+
+<test name="Default test12">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_mandatoryfieldMobile" />
+		</classes>
+</test>   -->
+
+</suite> 

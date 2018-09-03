@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+	
+	
+<test name="Default test1">
+		<parameter name="browserChromeOption" value="chrome"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_mandatoryfield" />
+		</classes>
+</test> 
+
+<!-- <test name="Default test2">
+		<parameter name="browserChromeOption" value="ie"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_mandatoryfieldIE" />
+		</classes>
+</test> 
+
+<test name="Default test3">
+		<parameter name="browserChromeOption" value="firefox"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_mandatoryfieldFF" />
+		</classes>
+</test> 
+
+<test name="Default test4">
+		<parameter name="browserChromeOption" value="android-chromemobile"></parameter>
+		<parameter name="rowNum" value="1"></parameter>
+		
+	 <classes>
+	<class name="com.jetPrev.scripts_Smoke.JetPrev_Smoke_Component_mandatoryfieldMobile" />
+		</classes>
+</test>  -->
+
+
+</suite> 

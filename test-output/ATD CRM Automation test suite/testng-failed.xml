@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [ATD CRM Automation test suite]" parallel="tests">
+  <parameter name="cloudExecution" value="false"/>
+  <parameter name="environment" value="prod"/>
+  <parameter name="suiteExecuted" value="Regression"/>
+  <parameter name="executionType" value="Parallel"/>
+  <parameter name="browser" value="android_device"/>
+  <parameter name="userRegion" value="India"/>
+  <parameter name="emailReport" value="false"/>
+  <parameter name="UDID" value="57c514b5"/>
+  <parameter name="deviceName" value="Redmi note3"/>
+  <parameter name="version" value="6.0"/>
+  <parameter name="platform" value="android"/>
+  <listeners>
+    <listener class-name="com.web.automation.listeners.ExecutionListener"/>
+  </listeners>
+  <test name="Test-chrome-Mobile">
+    <parameter name="cloudExecution" value="false"/>
+    <parameter name="environment" value="prod"/>
+    <parameter name="browser" value="android_device"/>
+    <parameter name="userRegion" value="India"/>
+    <parameter name="emailReport" value="false"/>
+    <parameter name="UDID" value="57c514b5"/>
+    <parameter name="deviceName" value="Redmi note3"/>
+    <parameter name="version" value="6.0"/>
+    <parameter name="platform" value="android"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.web.automation.scripts.LoginValidations"/>
+    </classes>
+  </test> <!-- Test-chrome-Mobile -->
+  <test name="Test-chrome-Mobile(failed)" parallel="tests">
+    <parameter name="cloudExecution" value="false"/>
+    <parameter name="environment" value="prod"/>
+    <parameter name="browser" value="android_device"/>
+    <parameter name="userRegion" value="India"/>
+    <parameter name="emailReport" value="false"/>
+    <parameter name="UDID" value="57c514b5"/>
+    <parameter name="deviceName" value="Redmi note3"/>
+    <parameter name="version" value="6.0"/>
+    <parameter name="platform" value="android"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.web.automation.scripts.LoginValidations">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.web.automation.scripts.LoginValidations -->
+    </classes>
+  </test> <!-- Test-chrome-Mobile(failed) -->
+</suite> <!-- Failed suite [ATD CRM Automation test suite] -->
